@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🐹 햄집사 앱 런처</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p { color: #888; margin-top: 0.4rem; font-size: 0.95rem; }
+
+    .section { margin-bottom: 2.5rem; }
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #555;
+      margin-bottom: 1rem;
+      padding-left: 0.25rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 0.75rem;
+    }
+
+    a.card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1.25rem 0.75rem;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #e8e8e8;
+      transition: background 0.15s, border-color 0.15s, transform 0.1s;
+      text-align: center;
+    }
+    a.card:hover {
+      background: #242424;
+      border-color: #444;
+      transform: translateY(-2px);
+    }
+    a.card .icon { font-size: 2rem; line-height: 1; }
+    a.card .name { font-size: 0.85rem; font-weight: 500; }
+    a.card .desc { font-size: 0.72rem; color: #666; }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      color: #444;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🐹 햄집사 앱 런처</h1>
+    <p>yulcat의 프로젝트 모음</p>
+  </header>
+
+  <div class="section">
+    <div class="section-title">👶 육아</div>
+    <div class="grid">
+      <a class="card" href="https://yulcat.github.io/twin-log/" target="_blank">
+        <span class="icon">👶</span>
+        <span class="name">둥이로그</span>
+        <span class="desc">수유·수면·기저귀</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/growth-curve/" target="_blank">
+        <span class="icon">📈</span>
+        <span class="name">성장곡선</span>
+        <span class="desc">WHO 성장 백분위</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/vaccine-schedule/" target="_blank">
+        <span class="icon">💉</span>
+        <span class="name">예방접종</span>
+        <span class="desc">스케줄러</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/lullaby/" target="_blank">
+        <span class="icon">🎵</span>
+        <span class="name">자장가</span>
+        <span class="desc">신생아 사운드 믹서</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/help-rota/" target="_blank">
+        <span class="icon">🤝</span>
+        <span class="name">도움반</span>
+        <span class="desc">도움 코디네이터</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🤰 임신·출산</div>
+    <div class="grid">
+      <a class="card" href="https://yulcat.github.io/bump-diary/" target="_blank">
+        <span class="icon">🌸</span>
+        <span class="name">임신일기</span>
+        <span class="desc">태동·컨디션·편지</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/recovery-journal/" target="_blank">
+        <span class="icon">🏥</span>
+        <span class="name">회복일지</span>
+        <span class="desc">산후 회복 트래커</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/namepair/" target="_blank">
+        <span class="icon">✨</span>
+        <span class="name">이름조화</span>
+        <span class="desc">쌍둥이 이름 탐색기</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🍳 레시피</div>
+    <div class="grid">
+      <a class="card" href="https://yulcat.github.io/steak-don/" target="_blank">
+        <span class="icon">🥩</span>
+        <span class="name">스테키동</span>
+        <span class="desc">일본식 스테이크덮밥</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🎮 게임·시뮬레이션</div>
+    <div class="grid">
+      <a class="card" href="https://yulcat.github.io/solitaire/" target="_blank">
+        <span class="icon">🃏</span>
+        <span class="name">솔리테어</span>
+        <span class="desc">클론다이크</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/dice-tower/" target="_blank">
+        <span class="icon">🎲</span>
+        <span class="name">주사위탑</span>
+        <span class="desc">3D 물리 주사위</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/petri/" target="_blank">
+        <span class="icon">🦠</span>
+        <span class="name">페트리</span>
+        <span class="desc">Game of Life</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/sandfall/" target="_blank">
+        <span class="icon">⏳</span>
+        <span class="name">샌드폴</span>
+        <span class="desc">Falling Sand</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/swarm/" target="_blank">
+        <span class="icon">🌀</span>
+        <span class="name">스웜</span>
+        <span class="desc">Particle Life</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/orbits/" target="_blank">
+        <span class="icon">🪐</span>
+        <span class="name">궤도</span>
+        <span class="desc">N-body 중력</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🎨 시각화·도구</div>
+    <div class="grid">
+      <a class="card" href="https://yulcat.github.io/fractal/" target="_blank">
+        <span class="icon">🌌</span>
+        <span class="name">프랙탈</span>
+        <span class="desc">WebGL2 탐험기</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/turing/" target="_blank">
+        <span class="icon">🔬</span>
+        <span class="name">튜링</span>
+        <span class="desc">Reaction-Diffusion</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/flow/" target="_blank">
+        <span class="icon">💧</span>
+        <span class="name">플로우</span>
+        <span class="desc">GPU 유체 시뮬레이션</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/noisebox/" target="_blank">
+        <span class="icon">🔊</span>
+        <span class="name">노이즈박스</span>
+        <span class="desc">앰비언트 사운드</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/palette-preview/" target="_blank">
+        <span class="icon">🎨</span>
+        <span class="name">팔레트</span>
+        <span class="desc">컬러 팔레트 생성기</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>🐹 by 햄집사 · <a href="https://github.com/yulcat" style="color:#555">github.com/yulcat</a></footer>
+</body>
+</html>
