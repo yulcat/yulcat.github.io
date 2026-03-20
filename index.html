@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#0f0f0f" />
   <title>🐹 햄집사 앱 런처</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -69,6 +71,7 @@
       color: #444;
       font-size: 0.8rem;
     }
+    footer a { color: #555; }
   </style>
 </head>
 <body>
@@ -77,6 +80,7 @@
     <p>yulcat의 프로젝트 모음</p>
   </header>
 
+  <!-- ── 육아 ────────────────────────────── -->
   <div class="section">
     <div class="section-title">👶 육아</div>
     <div class="grid">
@@ -84,6 +88,11 @@
         <span class="icon">👶</span>
         <span class="name">둥이로그</span>
         <span class="desc">수유·수면·기저귀</span>
+      </a>
+      <a class="card" href="http://100.92.91.95:3468/hub.html" target="_blank">
+        <span class="icon">🏠</span>
+        <span class="name">아기 허브</span>
+        <span class="desc">통합 대시보드</span>
       </a>
       <a class="card" href="http://100.92.91.95:3472/" target="_blank">
         <span class="icon">📈</span>
@@ -93,21 +102,99 @@
       <a class="card" href="https://yulcat.github.io/vaccine-schedule/" target="_blank">
         <span class="icon">💉</span>
         <span class="name">예방접종</span>
-        <span class="desc">스케줄러</span>
+        <span class="desc">KDCA 스케줄러</span>
       </a>
-      <a class="card" href="https://yulcat.github.io/lullaby/" target="_blank">
+      <a class="card" href="https://yulcat.github.io/med-log/" target="_blank">
+        <span class="icon">💊</span>
+        <span class="name">메디로그</span>
+        <span class="desc">투약 기록·중복 방지</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/nap-radar/" target="_blank">
+        <span class="icon">⏱️</span>
+        <span class="name">낮잠 레이더</span>
+        <span class="desc">wake window 타이머</span>
+      </a>
+      <a class="card" href="http://100.92.91.95:3474/" target="_blank">
         <span class="icon">🎵</span>
         <span class="name">자장가</span>
         <span class="desc">신생아 사운드 믹서</span>
       </a>
-      <a class="card" href="https://yulcat.github.io/help-rota/" target="_blank">
+      <a class="card" href="https://yulcat.github.io/baby-sos/" target="_blank">
+        <span class="icon">🚨</span>
+        <span class="name">응급 가이드</span>
+        <span class="desc">영아 CPR·오프라인</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/outdoor-ok/" target="_blank">
+        <span class="icon">🌤️</span>
+        <span class="name">외출 체커</span>
+        <span class="desc">날씨·공기질 판단</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/twin-passport/" target="_blank">
+        <span class="icon">🛂</span>
+        <span class="name">성장 여권</span>
+        <span class="desc">마일스톤 스탬프</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/partner-brief/" target="_blank">
         <span class="icon">🤝</span>
+        <span class="name">교대 인수인계</span>
+        <span class="desc">돌봄 브리프</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/voice-log/" target="_blank">
+        <span class="icon">🎤</span>
+        <span class="name">음성 기록</span>
+        <span class="desc">음성 수유 일지</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/sitter-brief/" target="_blank">
+        <span class="icon">📝</span>
+        <span class="name">돌봄 설명서</span>
+        <span class="desc">도우미·할머니용</span>
+      </a>
+      <a class="card" href="http://100.92.91.95:3471/" target="_blank">
+        <span class="icon">🙌</span>
         <span class="name">도움반</span>
         <span class="desc">도움 코디네이터</span>
       </a>
     </div>
   </div>
 
+  <!-- ── 임신·출산 ───────────────────────── -->
+  <div class="section">
+    <div class="section-title">🤰 임신·출산</div>
+    <div class="grid">
+      <a class="card" href="https://yulcat.github.io/birth-bag/" target="_blank">
+        <span class="icon">🎒</span>
+        <span class="name">입원 가방</span>
+        <span class="desc">출산 체크리스트</span>
+      </a>
+      <a class="card" href="http://100.92.91.95:3470/" target="_blank">
+        <span class="icon">🌊</span>
+        <span class="name">수축 타이머</span>
+        <span class="desc">파트너 실시간 공유</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/recovery-journal/" target="_blank">
+        <span class="icon">🌿</span>
+        <span class="name">회복일지</span>
+        <span class="desc">산후 회복 트래커</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/bump-diary/" target="_blank">
+        <span class="icon">🌸</span>
+        <span class="name">임신일기</span>
+        <span class="desc">태동·컨디션·편지</span>
+      </a>
+      <a class="card" href="https://yulcat.github.io/birth-card/" target="_blank">
+        <span class="icon">🎀</span>
+        <span class="name">탄생 카드</span>
+        <span class="desc">출산 발표 카드 메이커</span>
+      </a>
+      <a class="card" href="http://100.92.91.95:3469/" target="_blank">
+        <span class="icon">✨</span>
+        <span class="name">이름조화</span>
+        <span class="desc">쌍둥이 이름 탐색기</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── 가족 ────────────────────────────── -->
   <div class="section">
     <div class="section-title">🏠 가족</div>
     <div class="grid">
@@ -119,38 +206,7 @@
     </div>
   </div>
 
-  <div class="section">
-    <div class="section-title">🤰 임신·출산</div>
-    <div class="grid">
-      <a class="card" href="https://yulcat.github.io/bump-diary/" target="_blank">
-        <span class="icon">🌸</span>
-        <span class="name">임신일기</span>
-        <span class="desc">태동·컨디션·편지</span>
-      </a>
-      <a class="card" href="https://yulcat.github.io/recovery-journal/" target="_blank">
-        <span class="icon">🏥</span>
-        <span class="name">회복일지</span>
-        <span class="desc">산후 회복 트래커</span>
-      </a>
-      <a class="card" href="http://100.92.91.95:3469/" target="_blank">
-        <span class="icon">✨</span>
-        <span class="name">이름조화</span>
-        <span class="desc">쌍둥이 이름 탐색기</span>
-      </a>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">🍳 레시피</div>
-    <div class="grid">
-      <a class="card" href="https://yulcat.github.io/steak-don/" target="_blank">
-        <span class="icon">🥩</span>
-        <span class="name">스테키동</span>
-        <span class="desc">일본식 스테이크덮밥</span>
-      </a>
-    </div>
-  </div>
-
+  <!-- ── 게임·시뮬레이션 ─────────────────── -->
   <div class="section">
     <div class="section-title">🎮 게임·시뮬레이션</div>
     <div class="grid">
@@ -187,6 +243,7 @@
     </div>
   </div>
 
+  <!-- ── 시각화·도구 ─────────────────────── -->
   <div class="section">
     <div class="section-title">🎨 시각화·도구</div>
     <div class="grid">
@@ -205,11 +262,6 @@
         <span class="name">플로우</span>
         <span class="desc">GPU 유체 시뮬레이션</span>
       </a>
-      <a class="card" href="https://yulcat.github.io/noisebox/" target="_blank">
-        <span class="icon">🔊</span>
-        <span class="name">노이즈박스</span>
-        <span class="desc">앰비언트 사운드</span>
-      </a>
       <a class="card" href="https://yulcat.github.io/palette-preview/" target="_blank">
         <span class="icon">🎨</span>
         <span class="name">팔레트</span>
@@ -218,6 +270,6 @@
     </div>
   </div>
 
-  <footer>🐹 by 햄집사 · <a href="https://github.com/yulcat" style="color:#555">github.com/yulcat</a></footer>
+  <footer>🐹 by 햄집사 · <a href="https://github.com/yulcat">github.com/yulcat</a></footer>
 </body>
 </html>
